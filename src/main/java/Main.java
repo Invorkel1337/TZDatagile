@@ -39,8 +39,7 @@ class Dog extends Animal {
     }
 }
 class Cat extends Animal {
-    private boolean isIndoor; // Дополнительное поле
-
+    private boolean isIndoor;
     public Cat(String name, int age, boolean isIndoor) {
         super(name, age);
         this.isIndoor = isIndoor;
