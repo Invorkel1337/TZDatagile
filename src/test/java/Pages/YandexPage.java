@@ -11,7 +11,6 @@ public class YandexPage {
 
     public YandexPage openPage() {
         open("https://ya.ru/");
-        sleep(10000);
         return this;
     }
     public YandexPage search(String query) {
